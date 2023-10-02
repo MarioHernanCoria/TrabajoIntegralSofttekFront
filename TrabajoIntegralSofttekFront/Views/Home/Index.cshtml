@@ -1,8 +1,12 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model TrabajoIntegralSofttekFront.ViewModel.HomeViewModel
+@{
+    ViewData["Title"] = "TechOil";
 }
 
+@Html.EditorFor( x => x.Token);
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bienvenidos a UMSA Softtek</h1> 
 </div>
+
+<script src="~/js/home/home.js"> </script>
